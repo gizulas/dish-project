@@ -1,0 +1,47 @@
+body {
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    width: 100%;
+    .header-bg {
+        height: 80px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+        background-color: #ffffff;
+    }
+    .hdr-1 {
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .hdr-2 {
+        font-size: 46px;
+        font-weight: normal;
+    }
+    .hdr-3 {
+        font-size: 64px;
+        font-weight: bold;
+    }
+    .hdr-4 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .hdr-5 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .sbln-1 {
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .sbln-2 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .button-text-1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .button-text-2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
