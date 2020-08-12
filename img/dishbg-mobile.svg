@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="2424" viewBox="0 0 1440 2424">
+    <defs>
+        <linearGradient id="2ngk6658fb" x1="32.355%" x2="67.645%" y1="-68.145%" y2="168.145%">
+            <stop offset="0%" stop-color="#FFE679"/>
+            <stop offset="100%" stop-color="#CC3131"/>
+        </linearGradient>
+        <linearGradient id="ctv2op58zd" x1="0%" x2="153.213%" y1="19.471%" y2="152.022%">
+            <stop offset="0%" stop-color="#FFE679"/>
+            <stop offset="100%" stop-color="#CC3131"/>
+        </linearGradient>
+        <linearGradient id="q4w30wy72e" x1="0%" x2="165.62%" y1="45.211%" y2="65.173%">
+            <stop offset="0%" stop-color="#FFE679"/>
+            <stop offset="100%" stop-color="#CC3131"/>
+        </linearGradient>
+        <linearGradient id="j832q2b3hf" x1="8.331%" x2="165.252%" y1="1.961%" y2="84.218%">
+            <stop offset="0%" stop-color="#FFE679"/>
+            <stop offset="100%" stop-color="#CC3131"/>
+        </linearGradient>
+        <linearGradient id="cu4yswu9ag" x1="0%" x2="100%" y1="-74.034%" y2="174.034%">
+            <stop offset="0%" stop-color="#FFE679"/>
+            <stop offset="100%" stop-color="#CC3131"/>
+        </linearGradient>
+        <path id="rnbtk83xra" d="M0 0H1440V2424H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="mfujb8ugpc" fill="#fff">
+            <use xlink:href="#rnbtk83xra"/>
+        </mask>
+        <path fill="url(#2ngk6658fb)" fill-rule="nonzero" d="M0 325.018C397.736 507.744 877.736 734.611 1440 0v2424H0V325.018z" mask="url(#mfujb8ugpc)" opacity=".1"/>
+        <path fill="url(#ctv2op58zd)" fill-rule="nonzero" d="M0 2423.079C585.158 2294.324 1065.158 2050.63 1440 1692v732H0v-.921z" mask="url(#mfujb8ugpc)" opacity=".1"/>
+        <path fill="url(#q4w30wy72e)" fill-rule="nonzero" d="M1424.219 2216.344L1440 2424l-1440-.922c480-14.593 944.219-2.09 1424.219-206.734z" mask="url(#mfujb8ugpc)" opacity=".2" transform="matrix(-1 0 0 1 1440 0)"/>
+        <path fill="url(#j832q2b3hf)" fill-rule="nonzero" d="M532 2424c285.333-8.904 588-81.57 908-218v218H532z" mask="url(#mfujb8ugpc)" opacity=".7"/>
+        <path fill="url(#cu4yswu9ag)" fill-rule="nonzero" d="M0 2425c108.362-63.155 188.362-112.822 240-149v149H0z" mask="url(#mfujb8ugpc)" opacity=".1" transform="matrix(-1 0 0 1 240 0)"/>
+    </g>
+</svg>

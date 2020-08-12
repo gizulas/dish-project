@@ -8,24 +8,71 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lib/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/owl/assets/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
 
     <title>DISHPHOTOSHOOT</title>
 </head>
 
 <body>
     <header class="header-bg fixed-top">
+        <nav class="navbar-mobile">
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tools
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Photodirect</a>
+                            <a class="dropdown-item" href="#">Internet Presence</a>
+                            <a class="dropdown-item" href="#">Reservation Tool</a>
+                            <a class="dropdown-item" href="#">Vouchers</a>
+                            <a class="dropdown-item" href="#">Web Listing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khow How</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                </ul>
+                <div class="navbar-nav">
+                    <a class="login-link" href="#">Log in</a>
+                    <button class="sign-up-link" type="submit">Sign up</button>
+
+                </div>
+            </div>
+            <img src="img/photoshoot-logo.svg" class="logo-img" alt="dish logo">
+            <div class="langs">
+                <a class="flag-link" href="#">
+                    <img class="rounded" src="img/german2.png" alt="">
+                </a>
+            </div>
+        </nav>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
+            <div class="container navbar-container">
                 <a class="navbar-brand navbar-border" href="#">
-                    <img src="img/photoshoot-logo.svg" alt="dish logo">
+                    <img src="img/photoshoot-logo.svg" class="logo-img" alt="dish logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -53,7 +100,7 @@
                     </ul>
                     <div class="navbar-nav">
                         <a class="login-link" href="#">Log in</a>
-                        <button class="sign-up-link" type="submit">Search</button>
+                        <button class="sign-up-link" type="submit">Sign up</button>
                         <a class="flag-link" href="#">
                             <img class="rounded" src="img/german2.png" alt="">
                         </a>
@@ -74,9 +121,10 @@
                         30%</p>
                 </article>
             </section>
+            <button class="btn-get-started button-text-2">Get started now</button>
         </section>
         <section class="viewbox container statistics">
-            <section class="row justify-content-center">
+            <section class="row justifying-item">
                 <h2 class="hdr-2">More guests at your place</h2>
             </section>
             <section class="row">
@@ -100,77 +148,119 @@
         </section>
         <section class="before-after">
             <section class="container carousel-area">
-                <section class="row justify-content-center">
+                <section class="row justifying-item">
                     <h2 class="hdr-2">Show your guests what to expect</h2>
-                    <p class="sbln-1 text-center">The first impression is key. Thus, our professional fotographers
+                    <p class="sbln-1">The first impression is key. Thus, our professional fotographers
                         arrange your
                         restaurant at
                         ist
                         best.
                         They help you to create an outstanding atmosphere for your online presence.</p>
                 </section>
-                <section class="row justify-content-center">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active style-type">
-                            </li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="style-type"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="style-type"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="style-type"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4" class="style-type"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="slider-img-container">
-                                    <img class="w-50" src="img/before-1.jpg" srcset="img/before-1@2x.jpg 2x,
+                <section class="row justifying-item">
+                    <div class="owl-carousel owl-theme number-2">
+                        <div class="item">
+                            <div class="slider-cover">
+                                <img class="" src="img/before-1.jpg" srcset="img/before-1@2x.jpg 2x,
                             img/before-1@3x.jpg 3x" alt=" First slide">
-                                    <img class="w-50" src="img/after-1.jpg" srcset="img/after-1@2x.jpg 2x,
+                                <span class="owl-before-caption">BEFORE</span>
+                                <img class="" src="img/after-1.jpg" srcset="img/after-1@2x.jpg 2x,
                             img/after-1@3x.jpg 3x" alt=" First slide">
-                                </div>
+                                <span class="owl-after-caption">AFTER</span>
                             </div>
-                            <div class="carousel-item">
-                                <div class="slider-img-container">
-                                    <img class="w-50" src="img/before-2.jpg" srcset="img/before-2@2x.jpg 2x,
-                            img/before-2@3x.jpg 3x" alt=" Second slide">
-                            <div class="slider-img-seperator"></div>
-                                    <img class="w-50" src="img/after-2.jpg" srcset="img/after-2@2x.jpg 2x,
-                            img/after-2@3x.jpg 3x" alt=" Second slide">
-
-                                </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-cover">
+                                <img class="" src="img/before-2.jpg" srcset="img/before-2@2x.jpg 2x,
+                            img/before-2@3x.jpg 3x" alt=" First slide">
+                                <img class="" src="img/after-2.jpg" srcset="img/after-2@2x.jpg 2x,
+                            img/after-2@3x.jpg 3x" alt=" First slide">
                             </div>
-                            <div class="carousel-item">
-                                <div class="slider-img-container">
-                                    <img class="w-50" src="img/before-3.jpg" srcset="img/before-3@2x.jpg 2x,
-                            img/before-3@3x.jpg 3x" alt=" Third slide">
-                                    <img class="w-50" src="img/after-3.jpg" srcset="img/after-3@2x.jpg 2x,
-                            img/after-3@3x.jpg 3x" alt=" Third slide">
-                                </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-cover">
+                                <img class="" src="img/before-3.jpg" srcset="img/before-3@2x.jpg 2x,
+                            img/before-3@3x.jpg 3x" alt=" First slide">
+                                <img class="" src="img/after-3.jpg" srcset="img/after-3@2x.jpg 2x,
+                            img/after-3@3x.jpg 3x" alt=" First slide">
                             </div>
-                            <div class="carousel-item">
-                                <div class="slider-img-container">
-                                    <img class="w-50" src="img/before-4.jpg" srcset="img/before-4@2x.jpg 2x,
-                            img/before-4@3x.jpg 3x" alt=" Fourth slide">
-                                    <img class="w-50" src="img/after-4.jpg" srcset="img/after-4@2x.jpg 2x,
-                            img/after-4@3x.jpg 3x" alt=" Fourth slide">
-                                </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-cover">
+                                <img class="" src="img/before-4.jpg" srcset="img/before-4@2x.jpg 2x,
+                            img/before-4@3x.jpg 3x" alt=" First slide">
+                                <img class="" src="img/after-4.jpg" srcset="img/after-4@2x.jpg 2x,
+                            img/after-4@3x.jpg 3x" alt=" First slide">
                             </div>
-                            <div class="carousel-item">
-                                <div class="slider-img-container">
-                                    <img class="w-50" src="img/before-5.jpg" srcset="img/before-5@2x.jpg 2x,
-                            img/before-5@3x.jpg 3x" alt=" Fifth slide">
-                                    <img class="w-50" src="img/after-5.jpg" srcset="img/after-5@2x.jpg 2x,
-                            img/after-5@3x.jpg 3x" alt=" Fifth slide">
-                                </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-cover">
+                                <img class="" src="img/before-5.jpg" srcset="img/before-5@2x.jpg 2x,
+                            img/before-5@3x.jpg 3x" alt=" First slide">
+                                <img class="" src="img/after-5.jpg" srcset="img/after-5@2x.jpg 2x,
+                            img/after-5@3x.jpg 3x" alt=" First slide">
                             </div>
+                        </div>
+                    </div>
+                    <div class="owl-carousel owl-theme number-1">
+                        <div class="item">
+                            <img class="" src="img/before-1.jpg" srcset="img/before-1@2x.jpg 2x,
+                            img/before-1@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-before-caption">BEFORE</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/after-1.jpg" srcset="img/after-1@2x.jpg 2x,
+                            img/after-1@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-after-caption">AFTER</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/before-2.jpg" srcset="img/before-2@2x.jpg 2x,
+                            img/before-2@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-before-caption">BEFORE</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/after-2.jpg" srcset="img/after-2@2x.jpg 2x,
+                            img/after-2@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-after-caption">AFTER</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/before-3.jpg" srcset="img/before-3@2x.jpg 2x,
+                            img/before-3@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-before-caption">BEFORE</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/after-3.jpg" srcset="img/after-3@2x.jpg 2x,
+                            img/after-3@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-after-caption">AFTER</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/before-4.jpg" srcset="img/before-4@2x.jpg 2x,
+                            img/before-4@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-before-caption">BEFORE</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/after-4.jpg" srcset="img/after-4@2x.jpg 2x,
+                            img/after-4@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-after-caption">AFTER</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/before-5.jpg" srcset="img/before-5@2x.jpg 2x,
+                            img/before-5@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-before-caption">BEFORE</span>
+                        </div>
+                        <div class="item">
+                            <img class="" src="img/after-5.jpg" srcset="img/after-5@2x.jpg 2x,
+                            img/after-5@3x.jpg 3x" alt=" First slide">
+                            <span class="owl-after-caption">AFTER</span>
                         </div>
                     </div>
                 </section>
             </section>
         </section>
         <section class="container gallery-area">
-            <section class="row justify-content-center">
+            <section class="row justifying-item">
                 <h2 class="hdr-2">Professional photos for every place</h2>
-                <p class="sbln-1 text-center">Our photographers contribute to your excellent online presence. That is
+                <p class="sbln-1">Our photographers contribute to your excellent online presence. That is
                     independent of size and style
                     of your restaurant. They are real pros when it comes to take impressive photos of restaurants and
                     bars. They know exactly, what customers are looking at.</p>
@@ -205,7 +295,7 @@
             </section>
         </section>
         <section class="container process-step">
-            <section class="row justify-content-center">
+            <section class="row justifying-item">
                 <h2 class="hdr-2">That's the way it goes</h2>
             </section>
             <section class="row step-bottom-border">
@@ -232,164 +322,222 @@
                 <div class="col-lg-4">
                     <span class="badge process-badge">3</span>
                     <img src="img/download-your-photos-content.jpg" srcset="img/download-your-photos-content@2x.jpg 2x,
-                    img/download-your-photos-content@3x.jpg 3x" alt="">
+                    img/download-your-photos-content@3x.jpg 3x" class="step-img" alt="">
                     </img>
                     <h3 class="hdr-5">Download your photos</h3>
-                    <p class="sbln-1">Your high-resolution photos are ready to be downloaded and used on your web site, Google,
+                    <p class="sbln-1">Your high-resolution photos are ready to be downloaded and used on your web site,
+                        Google,
                         Facebook, Instagram, …</p>
                 </div>
             </section>
         </section>
-        <section class=" container select-photoshoot">
-                        <section class="row">
-                            <h2>Select your photoshoot</h2>
-                        </section>
-                        <section class="row">
-                            <article class="card-group">
-                                <div class="card border-light mb-3">
-                                    <div class="card-header">MOST POPULAR</div>
-                                    <img class="card-img-top" src="img/select-a-photoshoot.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Location</h5>
-                                        <p class="card-text">- 7 images of your restaurant</p>
-                                        <p class="card-text">This package contains 7 images, e.g.
-                                            <br>
-                                            2 pictures of the outside
-                                            <br>
-                                            5 pictures of your choice: interior, kitchen, service bar.</p>
-                                        <p class="card-text">199,- €</p>
-                                        <a href="#" class="btn">
-                                            <span>Get Started</span>
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- </article>
-                <article class="col-lg-4"> -->
-                                <div class="card border-light mb-3">
-                                    <div class="card-header">MOST POPULAR</div>
-                                    <img class="card-img-top" src="img/select-food.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <bold>Food</bold> + Location
-                                        </h5>
-                                        <p class="card-text">- 7 images of your restaurant</p>
-                                        <p class="card-text">- 8 images of your dishes</p>
-                                        <p class="card-text">This package contains 15 images.
-                                            <br>
-                                            In addition to the location package, you will get 8 great pictures of meals
-                                            characterizing
-                                            your art of cooking.</p>
-                                        <p class="card-text">299,- €</p>
-                                        <a href="#" class="btn">
-                                            <span>Get Started</span>
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- </article>
-                <article class="col-lg-4"> -->
-                                <div class="card border-light mb-3">
-                                    <div class="card-header">MOST POPULAR</div>
-                                    <img class="card-img-top" src="img/select-people.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <bold>People</bold> + Food + Location
-                                        </h5>
-                                        <p class="card-text">- 7 images of your restaurant</p>
-                                        <p class="card-text">- 8 images of your dishes</p>
-                                        <p class="card-text">- 3 images of your team</p>
-                                        <p class="card-text">This package contains 18 images.
-                                            <br>
-                                            It adds 3 more photos of you and your team on top - putting your business at
-                                            ist best,
-                                            including the people behind it.</p>
-                                        <p class="card-text">349,- €</p>
-                                        <a href="#" class="btn">
-                                            <span>Get Started</span>
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </article>
-                        </section>
+        <section class="container select-photoshoot">
+            <section class="row justify-content-center">
+                <h2 class="hdr-2">Select your photoshoot</h2>
             </section>
-            <section class="container reminder">
-                <article class="row justify-content-center">
-                    <h1 class="hdr-1">Don't miss out!</h1>
-                    <p class="sbln-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas, justo sed rhoncus
-                        pharetra,
-                        magna lectus suscipit nisi, sed convallis augue metus non dolor. Nulla imperdiet non massa quis.
-                        Quisque egestas, justo sed rhoncus pharetra.</p>
-                    <button class="btn-get-started button-text-2">Get started now</button>
+            <section class="row d-flex justify-content-between">
+                <article class="col-lg-4">
+                    <div class="card border-light select-box header-gap">
+                        <div class="card-header most">MOST POPULAR</div>
+                        <img class="card-img-top" src="img/select-location.jpg" alt="Card image cap">
+                        <div class="card-body select-box-body">
+                            <h5 class="card-title hdr-6">Location</h5>
+                            <p class="card-text sbln-2 content-list">- 7 images of your restaurant</p>
+                            <p class="card-text sbln-3">This package contains 7 images, e.g.
+                                <br>
+                                2 pictures of the outside
+                                <br>
+                                5 pictures of your choice: interior, kitchen, service bar.</p>
+                            <p class="card-text price-box">199,- €</p>
+                            <button class="select-box-body-btn text-left">
+                                <span class="button-text-1">Get Started</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4">
+                    <div class="card border-light select-box">
+                        <div class="card-header select-box-header">MOST POPULAR</div>
+                        <img class="card-img-top select-box-image" src="img/select-food.jpg" alt="Card image cap">
+                        <div class="card-body select-box-body">
+                            <h5 class="card-title hdr-6">
+                                <span>Food</span> + Location
+                            </h5>
+                            <p class="card-text sbln-2 content-list">
+                                - 7 images of your restaurant
+                                <br>
+                                - 8 images of your dishes
+                            </p>
+                            <p class="card-text sbln-3">This package contains 15 images.
+                                <br>
+                                In addition to the location package, you will get 8 great pictures of meals
+                                characterizing
+                                your art of cooking.</p>
+                            <p class="card-text price-box">299,- €</p>
+                            <button class="select-box-body-btn  text-left selected">
+                                <span class="button-text-1">Get Started</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-4">
+                    <div class="card border-light select-box header-gap">
+                        <div class="card-header most">MOST POPULAR</div>
+                        <img class="card-img-top" src="img/select-people.jpg" alt="Card image cap">
+                        <div class="card-body select-box-body">
+                            <h5 class="card-title hdr-6">
+                                <span>People</span> + Food + Location
+                            </h5>
+                            <p class="card-text sbln-2 content-list">
+                                - 7 images of your restaurant
+                                <br>
+                                - 8 images of your dishes
+                                <br>
+                                - 3 images of your team
+                            </p>
+                            <p class="card-text sbln-3">This package contains 18 images.
+                                <br>
+                                It adds 3 more photos of you and your team on top - putting your business at
+                                ist best,
+                                including the people behind it.</p>
+                            <p class="card-text price-box">349,- €</p>
+                            <button class="select-box-body-btn  text-left">
+                                <span class="button-text-1">Get Started</span>
+                            </button>
+                        </div>
+                    </div>
                 </article>
             </section>
+        </section>
+        <section class="container reminder">
+            <article class="row justify-content-center">
+                <h1 class="hdr-1">Don't miss out!</h1>
+                <p class="sbln-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas, justo sed
+                    rhoncus
+                    pharetra,
+                    magna lectus suscipit nisi, sed convallis augue metus non dolor. Nulla imperdiet non massa quis.
+                    Quisque egestas, justo sed rhoncus pharetra.</p>
+                <button class="btn-get-started button-text-2">Get started now</button>
+            </article>
+        </section>
     </main>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="/">
-                        <img src="img/photoshoot-logo.svg" alt="dish logo">
-                    </a>
-                    <button></button>
-                    <button></button>
-                </div>
-                <div class="col">
-                    <h3 class="">Tools</h3>
-                    <ul class="list-unstyled f_list">
-                        <li><a href="#">Photodirect</a></li>
-                        <li><a href="#">Internet Presence</a></li>
-                        <li><a href="#">Reservation Tool</a></li>
-                        <li><a href="#">Vouchers</a></li>
-                        <li><a href="#">Web Listing</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3 class="">About</h3>
-                    <ul class="list-unstyled f_list">
-                        <li><a href="#">Dish</a></li>
-                        <li><a href="#">Know-How App</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3 class="">Acount</h3>
-                    <ul class="list-unstyled f_list">
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Log in</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Get App</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="">
-                            <a href="#" class="fab fa-facebook"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                            <a href="#" class="fab fa-pinterest"></a>
-                        </div>
-                        <div>
-                            <a href="">
-                                <img src="" alt="">
-                            </a>
-                            <a href="">
-                                <img src="" alt="">
-                            </a>
+    <footer class="footer footer-bg">
+        <section class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col">
+                        <a href="/">
+                            <img src="img/photoshoot-logo-ft.svg" class="footer-top-logo " alt="dish logo">
+                        </a>
+                        <button type="button" class="btn footer-top-btn">
+                            <span class="sbln-2">English</span>
+                            <img src="img/chevron-right.svg" class="btn-arrow text-right" alt="">
+                        </button>
+                        <button type="button" class="btn footer-top-btn">
+                            <div>
+                                <img src="img/german2.png" class="footer-top-btn-img" alt="">
+                                <span class="sbln-2">Germany</span>
+                            </div>
+                            <img src="img/chevron-right.svg" class="btn-arrow text-right" alt="">
+                        </button>
+                    </div>
+                    <div class="col">
+                        <h3 class="footer-top-menu-header">Tools</h3>
+                        <ul class="list-unstyled f_list">
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Photodirect</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Internet Presence</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Reservation Tool</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Vouchers</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Web Listing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="footer-top-menu-header">About</h3>
+                        <ul class="list-unstyled f_list">
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link"> Dish</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Know-How App</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Events</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="footer-top-menu-header">Acount</h3>
+                        <ul class="list-unstyled">
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Sign up</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Log in</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Help</a>
+                            </li>
+                            <li class="footer-top-menu-item">
+                                <a href="#" class="footer-top-menu-link">Get App</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <ul class="nav social-list">
+                                <li class="nav-item social-list-item">
+                                    <a href="#" class="icon-bg">
+                                        <img src="img/facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item social-list-item">
+                                    <a href="#" class="icon-bg">
+                                        <img src="img/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item social-list-item">
+                                    <a href="#" class="icon-bg">
+                                        <img src="img/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="store-button">
+                                <a href="#">
+                                    <img src="img/appstore.svg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/googlestore.svg" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row ">
-                <div>Copyright © 2020 Dish.</div>
-                <a href="#">Term of use</a>
-                <a href="#">Data privacy</a>
-                <a href="#">Imprint</a>
-                <a href="#">Cookies</a>
+            <div class="footer-bottom">
+                <div class="row justify-content-center">
+                    <div class="sbln-2">Copyright © 2020 Dish.</div>
+                    <div class="policy">
+                        <a href="#" class="sbln-2">Term of use</a>
+                        <a href="#" class="sbln-2">Data privacy</a>
+                        <a href="#" class="sbln-2">Imprint</a>
+                        <a href="#" class="sbln-2">Cookies</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -402,6 +550,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="lib/owl/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel.number-1").owlCarousel({
+                items: 2,
+                margin: 17,
+                stagePadding: 16,
+                nav: true,
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel.number-2").owlCarousel({
+                items: 1,
+                margin: 36,
+                stagePadding: 36,
+                nav: true,
+            });
+        });
+    </script>
 </body>
 
 </html>
