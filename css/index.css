@@ -206,8 +206,15 @@ header .navbar-mobile .langs .flag-link img {
   height: 22px;
 }
 
-header .navbar-mobile .collapse {
+header .navbar-mobile .navbar-collapse {
   display: none;
+}
+
+header .navbar-mobile .navbar-collapse.collapsing {
+  background: #ffffff;
+  /* height: 0; */
+  -webkit-transition: unset;
+  transition: unset;
 }
 
 header .navbar-mobile .collapse.show {

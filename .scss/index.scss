@@ -96,8 +96,15 @@ header {
                 }
             }
         }
-        .collapse {
+        .navbar-collapse {
             display: none;
+            &.collapsing {
+            background: #ffffff;
+            // position: relative;
+                /* height: 0; */
+                // overflow: hidden;
+                transition: unset;
+            }
         }
 
         .collapse.show {
