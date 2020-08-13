@@ -20,63 +20,290 @@ body {
         height: 80px;
         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
         background-color: #ffffff;
-        @media screen and (max-width: 375px){
+        @media screen and (max-width: 375px) {
             height: 52px;
         }
-
     }
-    .hdr-1 {
+
+    .header-1-light {
         font-size: 56px;
         font-weight: bold;
-        @media screen and (max-width: 375px){
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #ffffff;
+        @media screen and (max-width: 375px) {
             font-size: 30px;
         }
     }
-    .hdr-2 {
+
+    .header-1-dark {
+        font-size: 56px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 30px;
+        }
+    }
+
+    .header-2-1 {
         font-size: 46px;
         font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 26px;
+        }
     }
-    .hdr-3 {
+
+    .header-2-2 {
+        font-size: 46px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 26px;
+            line-height: 1.23;
+        }
+    }
+
+    .header-3 {
         font-size: 64px;
         font-weight: bold;
-        @media screen and (max-width: 375px){
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #000000;
+        @media screen and (max-width: 375px) {
             font-size: 52px;
         }
     }
-    .hdr-4 {
+
+    .header-4 {
         font-size: 22px;
         font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+        }
     }
-    .hdr-5 {
+
+    .header-5 {
         font-size: 28px;
         font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 22px;
+        }
     }
-    .hdr-6 {
+
+    .header-6 {
         font-size: 22px;
         font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
     }
 
-    .sbln-1 {
+    .header-6-1 {
         font-size: 22px;
         font-weight: normal;
-
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
     }
-    .sbln-2 {
+
+    .header-7 {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .footer-header-8 {
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .menu-text {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .subline-text-1-light {
+        font-size: 22px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        color: #ffffff;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+        }
+    }
+
+    .subline-text-1-dark {
+        font-size: 22px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+        }
+    }
+
+    .subline-text-2 {
+        font-size: 22px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        @media screen and (max-width: 375px) {
+            font-size: 16px;
+            line-height: 1.25;
+        }
+    }
+
+    .subline-text-3 {
         font-size: 16px;
         font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #4a4a4a;
     }
-    .sbln-3 {
+
+    .subline-text-4 {
         font-size: 14px;
         font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #4a4a4a;
     }
+
     .button-text-1 {
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .button-text-2 {
         font-size: 22px;
         font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+            line-height: 1.22;
+        }
+    }
+
+    .button-text-2-1 {
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #eb6a38;
+    }
+
+    .button-text-2-2 {
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    .button-text-3 {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .caption-text {
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+        }
+    }
+
+    .footer-text-1 {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .footer-text-2 {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
     }
 }
-
-
