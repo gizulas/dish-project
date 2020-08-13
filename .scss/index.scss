@@ -15,7 +15,7 @@ header {
     // ---HEADER MOBİL BEGIN---
     .navbar-mobile {
         display: none;
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 991.98px) {
             display: flex;
         }
         height: 100%;
@@ -168,7 +168,7 @@ header {
     // ---HEADER DESKTOP BEGIN---
 
 .navbar {
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 991.98px) {
         display: none;
     }
     &-border {
