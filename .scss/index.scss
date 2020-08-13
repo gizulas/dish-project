@@ -5,13 +5,14 @@
         max-width: 1200px !important;
     }
 }
-
+// ---HEADER AREA BEGIN---
 header {
     padding-top: 12px;
     padding-bottom: 12px;
     @media screen and (max-width: 375px) {
         padding: 0;
     }
+    // ---HEADER MOBİL BEGIN---
     .navbar-mobile {
         display: none;
         @media screen and (max-width: 375px) {
@@ -161,7 +162,11 @@ header {
             }
         }
     }
+    // ---HEADER MOBIL END---
+
 }
+    // ---HEADER DESKTOP BEGIN---
+
 .navbar {
     @media screen and (max-width: 375px) {
         display: none;
@@ -257,6 +262,10 @@ header {
         }
     }
 }
+    // ---HEADER DESKTOP END---
+
+
+    // ---CONTENT AREA BEGIN---
 
 main {
     background: url("../img/dishbg.svg") center bottom no-repeat;
@@ -272,6 +281,9 @@ main {
             justify-content: unset;
         }
     }
+
+
+    // ---HERO SECTION BEGIN---
 
     section.overlay {
         margin-top: 80px;
@@ -354,6 +366,10 @@ main {
             }
         }
     }
+    // ---HERO SECTION END---
+
+    // ---STASTISTICS SECTION BEGIN---
+
     section.statistics {
         padding-top: 113px;
         padding-bottom: 128px;
@@ -385,6 +401,10 @@ main {
             }
         }
     }
+    // ---STASTISTICS SECTION END---
+
+    // ---BEFORE-AFTER SECTION BEGIN---
+
     section.before-after {
         background-size: cover;
         padding-top: 112px;
@@ -548,6 +568,10 @@ main {
             }
         }
     }
+    // ---BEFORE-AFTER SECTION END---
+
+    // ---GALLERY SECTION BEGIN---
+
     section.gallery-area {
         padding-top: 112px;
         padding-bottom: 64px;
@@ -679,6 +703,10 @@ main {
             }
         }
     }
+    // ---GALLERY SECTION END---
+
+    // ---PROCESS SECTION BEGIN---
+
     section.process-step {
         padding-top: 112px;
         text-align: center;
@@ -746,6 +774,10 @@ main {
             }
         }
     }
+    // ---PROCESS SECTION END---
+
+    // ---SELECT PHOTOSHOOT SECTION BEGIN---
+
     section.select-photoshoot {
         padding-top: 112px;
         padding-bottom: 56px;
@@ -877,6 +909,10 @@ main {
             }
         }
     }
+    // ---SELECT PHOTOSHOOT SECTION END---
+
+    // ---REMINDER SECTION BEGIN---
+
     section.reminder {
         padding-top: 64px;
         padding-bottom: 64px;
@@ -925,7 +961,12 @@ main {
             }
         }
     }
+    // ---REMINDER SECTION BEGIN---
+
 }
+    // ---CONTENT AREA END---
+
+    // ---FOOTER AREA BEGIN---
 
 footer.footer-bg {
     background-color: #171a1a;
@@ -1066,3 +1107,5 @@ footer.footer-bg {
         }
     }
 }
+    // ---FOOTER AREA END---
+

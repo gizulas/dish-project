@@ -2,19 +2,6 @@ body {
     font-family: "Asap", sans-serif;
     font-size: 22px;
     width: 100%;
-    // .box {
-    //     width: 100%;
-    //     padding-right: 15px;
-    //     padding-left: 15px;
-    //     margin-right: auto;
-    //     margin-left: auto;
-    //     @media screen and (min-with: 1200px) {
-    //         max-width: 1190px;
-    //     }
-    //     @media screen and (min-with: 1199.98px) {
-    //         max-width: 1140px;
-    //     }
-    // }
 
     .header-bg {
         height: 80px;
@@ -24,6 +11,8 @@ body {
             height: 52px;
         }
     }
+
+    // ---HEADER STYLES---
 
     .header-1-light {
         font-size: 56px;
@@ -157,6 +146,8 @@ body {
         color: #ffffff;
     }
 
+    // ---TEXT STYLES---
+
     .menu-text {
         font-size: 18px;
         font-weight: normal;
@@ -164,7 +155,6 @@ body {
         font-style: normal;
         line-height: 1.22;
         letter-spacing: normal;
-        color: #ffffff;
     }
 
     .subline-text-1-light {
